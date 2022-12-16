@@ -200,7 +200,7 @@ bool UDelaunayHelper::PointIsValid(const FPointIndex& Point)
 	return Point.IsValid();
 }
 
-uint32 UDelaunayHelper::GetValue(const FPointIndex& Point)
+int64 UDelaunayHelper::GetValue(const FPointIndex& Point)
 {
 	return Point.GetValue();
 }

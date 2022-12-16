@@ -412,7 +412,7 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Procedural Generation|Delaunator")
 	static bool PointIsValid(const FPointIndex& Point);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Procedural Generation|Delaunator")
-	static uint32 GetValue(const FPointIndex& Point);
+	static int64 GetValue(const FPointIndex& Point);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Procedural Generation|Delaunator")
 	static bool SideIsValid(const FSideIndex& Side);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Procedural Generation|Delaunator")
